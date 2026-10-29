@@ -23,4 +23,4 @@ def info():
     # registers this function for GET requests at "/info"
     # shows which machine/pod is serving the request
     #return a dict with the hostname — use socket.gethostname()
-    return {"hostname": "socket.gethostname()"}
+    return {"hostname": socket.gethostname()}
